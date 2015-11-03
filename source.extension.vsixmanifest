@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="02078ebf-2c93-4560-be2d-caf994add48b" Version="1.4" Language="en-US" Publisher="MMLib" />
+    <DisplayName>SHotkey</DisplayName>
+    <Description xml:space="preserve">SHotkey is free extension, which allow searching keyboard shortcuts for command in Visual studio.
+You can search by command name or shortcut.
+    </Description>
+    <ReleaseNotes>ReleaseNotes.txt</ReleaseNotes>
+    <Icon>1441897603_flash_auto.ico</Icon>
+    <PreviewImage>Screenshot_1.png</PreviewImage>
+    <Tags>Shortcuts, Hotkey, keboard shortcut, searching shortcut</Tags>
+  </Metadata>
+  <Installation InstalledByMsi="false" AllUsers="true">
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
+    <InstallationTarget Version="11.0" Id="Microsoft.VisualStudio.Premium" />
+    <InstallationTarget Version="11.0" Id="Microsoft.VisualStudio.Ultimate" />
+    <InstallationTarget Version="11.0" Id="Microsoft.VisualStudio.IntegratedShell" />
+    <InstallationTarget Version="11.0" Id="Microsoft.VisualStudio.VSLS" />
+
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="12.0" />
+    <InstallationTarget Version="12.0" Id="Microsoft.VisualStudio.Premium" />
+    <InstallationTarget Version="12.0" Id="Microsoft.VisualStudio.Ultimate" />
+    <InstallationTarget Version="12.0" Id="Microsoft.VisualStudio.IntegratedShell" />
+    <InstallationTarget Version="12.0" Id="Microsoft.VisualStudio.VSLS" />
+
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="14.0" />
+    <InstallationTarget Version="14.0" Id="Microsoft.VisualStudio.Ultimate" />
+    <InstallationTarget Version="14.0" Id="Microsoft.VisualStudio.Community" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.11.0" DisplayName="Visual Studio MPF 11.0" d:Source="Installed" Version="11.0" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+  </Assets>
+</PackageManifest>

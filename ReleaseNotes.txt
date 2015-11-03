@@ -1,0 +1,8 @@
+- Version 1.2
+Information about shortcut validity
+
+- Version 1.3
+Regular expression searching
+
+- version 1.4
+Readable colors for text

@@ -1,0 +1,10 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MMLib.SHotkey" x:Class="MMLib.SHotkey.SearchingWindow"
+        PreviewKeyDown="Window_PreviewKeyDown"
+        Loaded="Window_Loaded"
+        Title="Searching keyboard shortcuts" Height="600" Width="680" Icon="/SHotkey;component/Resources/Main.ico" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <local:SearchingControl x:Name="searchControl" />
+    </Grid>
+</Window>
